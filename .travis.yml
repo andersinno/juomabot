@@ -1,0 +1,13 @@
+sudo: false
+language: python
+cache:
+  directories:
+    - "$HOME/.cache/pip"
+python: "3.4"
+install:
+  - pip install -U pip
+  - pip install -r requirements.txt
+script:
+  - py.test -ra -vvv --cov . --cov-report term-missing
+after_success:
+  - bash <(curl -s https://codecov.io/bash)

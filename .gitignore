@@ -1,0 +1,12 @@
+*.log
+*.py[cod]
+*.sqlite3
+.cache
+.coverage
+.coverage.*
+.idea
+__pycache__/
+build/
+eggs/
+htmlcov/
+var/
