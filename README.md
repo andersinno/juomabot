@@ -1,6 +1,10 @@
 juomabot
 ========
 
+[![Build Status](https://travis-ci.org/andersinno/juomabot.svg?branch=master)](https://travis-ci.org/andersinno/juomabot)
+[![codecov](https://codecov.io/gh/andersinno/juomabot/branch/master/graph/badge.svg)](https://codecov.io/gh/andersinno/juomabot)
+
+
 :cocktail: Slack-based office drink tracker
 
 Configuration

@@ -1,2 +1,5 @@
 [run]
-branch = true
+branch = True
+omit =
+    *site-packages*
+    runserver.py
